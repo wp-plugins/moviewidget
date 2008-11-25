@@ -1,0 +1,13 @@
+MovieWidget {
+	color:#000000;
+	}
+
+.MovieWidgetTitle {
+	font-size:medium;
+	font-weight:lighter;
+	color:#000000;
+	}
+
+.MovieBuyVerbage {
+	font-size:small;
+}
