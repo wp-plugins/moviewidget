@@ -4,7 +4,7 @@ Plugin Name: MovieCollector Display Widget
 Plugin URI: http://blog.miloco.com/moviewidget
 Description: A sidebar widget for displaying random movies from your Collectorz MovieCollector exported xml file.  Born from Kaf's MyWidget example.
 Author: Andy Milo
-Version: 0.5
+Version: 0.7
 Author URI: http://blog.miloco.com 
 
     This widget is released under the GNU General Public License (GPL) 
