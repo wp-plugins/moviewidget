@@ -10,9 +10,9 @@ A sidebar widget for displaying random movies from your Collectorz MovieCollecto
 
 == Description ==
 
-I use [MovieCollector](http://www.collectorz.com/movie/?a=miloco/ "MovieCollector") from Collectorz to catalog my DVD Collection. I really wanted to randomly display parts of my collection on my blog, but I couldn’t find anything ready made out on the Net so I danced a bit with PHP and put together this Wordpress widget.  It was made for Wordpress 2.3 and above.
+I use [MovieCollector](http://www.collectorz.com/movie/?a=miloco/ "MovieCollector") from Collectorz to catalog my DVD Collection. I really wanted to randomly display parts of my collection on my blog, but I couldn't find anything ready made out on the Net so I danced a bit with PHP and put together this Wordpress widget.  It was made for Wordpress 2.3 and above.
 
-The widget’s display has been designed very simply to fit in with most blogs.
+The widget's display has been designed very simply to fit in with most blogs.
 
 == Installation ==
 
@@ -28,7 +28,7 @@ The configuration options are as follows:
 
 * **Widget Title**: No magic here. Just the displayed title of the widget.
 
-* **Base Filepath**: Used to turn the thumbnail file spec embedded in the Movie Collector XML from something like this: `E:\Program Files\Collectorz.com\Movie Collector\Data\ Thumbnails\fabd5884547c9e232d60d9d2b441a486.jpg` Into a web ready URL, like: `http://blog.miloco.com/movies/Thumbnails/ fabd5884547c9e232d60d9d2b441a486.jpg` Move Collector embeds the full filespec of each DVD cover image. Unfortunately, this won't help us put them on your blog. You'll need to copy your Movie Collector Images and Thumbnail directories to a spot on your webhost where they can be served up via a URL. This configuration option is simply the filespec that your movie images are stored in on your computer. This is only used as a point of reference - the Widget takes this value and strips it out of the returned XML values on runtime. The plugin never directly accesses *any* file on your PC, nor does it report this value to the public.
+* **Base Filepath**: Used to turn the thumbnail file spec embedded in the Movie Collector XML from something like this: `E:\Program Files\Collectorz.com\Movie Collector\Data\ Thumbnails\fabd5884547c9e232d60d9d2b441a486.jpg` Into a web ready URL, like: `http://www.foo.com/movies/Thumbnails/fabd5884547c9e232d60d9d2b441a486.jpg` Move Collector embeds the full filespec of each DVD cover image. Unfortunately, this won't help us put them on your blog. You'll need to copy your Movie Collector Images and Thumbnail directories to a spot on your webhost where they can be served up via a URL. This configuration option is simply the filespec that your movie images are stored in on your computer. This is only used as a point of reference - the Widget takes this value and strips it out of the returned XML values on runtime. The plugin never directly accesses *any* file on your PC, nor does it report this value to the public.
 
 * **Second Filepath:** An optional value that allows you to specify a second file spec where your images may have been stored. Why this value? Well, my collection images were split between two hard drives. Some images were on my `D:` drive, others were on `E:`. Since I needed to be able to split up my own collection, this logic was added to the widget as well. :) If all of your images are in the same directory, you can just leave this blank.
 
@@ -53,10 +53,8 @@ Did you make sure to upload them to a directory on your website?  Did you config
 1. Widget Configuration Screen with Inline Help
 2. Example of a stylized widget.
 
-== Need Help? ==
+== Other Notes... ==
 
-If you need help with this Widget, browse over to the [plugin home page] (http://blog.miloco.com/moviewidget "Movie Widget") and leave a comment there.  I’ll do my best to answer any questions that you have.
+If you need help with this Widget, browse over to the plugin home page (http://blog.miloco.com/moviewidget) and leave a comment there.  I'll do my best to answer any questions that you have.
 
-== Donation ==
-
-If you like the plugin, consider cruising by the [plugin home page] (http://blog.miloco.com/moviewidget "Movie Widget") and dropping a buck or two to say thanks and help with future versions.
+If you like the plugin, consider dropping a buck or two at the above URL to say thanks and help with future versions.
