@@ -3,7 +3,7 @@ Contributors: miloandrew
 Donate link: http://blog.miloco.com/moviewidget/donate
 Tags: movie collector, widget, movie catalog 
 Requires at least: 2.3
-Tested up to: 2.6.2
+Tested up to: 2.7
 Stable tag: 0.7
 
 A sidebar widget for displaying random movies from your Collectorz MovieCollector exported xml file.
